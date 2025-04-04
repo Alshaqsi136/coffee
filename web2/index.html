@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+        body{
+            background-color: #111315;
+            display: flex;
+            justify-content: center;
+            height: 1000px;
+            
+        }
+        #header{
+            width: 100%;
+            height:300px;
+            background-color: antiquewhite;
+            background-image: url("./240_F_366733676_qTLsnBUZqNflzkE9bGgiMpurlkiUwUQc.jpg");
+            object-fit:cover;
+            object-position: right top;
+            position: absolute;
+            top: 0;
+            left:0 ;
+        }
+        #box{
+            width: 75%;
+            height: 700px;
+            background-color: #1B1D1F;
+            position: relative;
+            top: 160px;
+            border-radius: 9px;
+            
+
+        }
+        #tbox{
+            top: -110px;
+            position: relative;
+            display: flex;
+            height: 30%;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+
+
+           
+        }
+        #fbut{
+
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            width:100px;
+            height: 37px;
+            border-radius: 6px;
+            border: none;
+            color: #FEF7EE;
+            background-color:#6F757C;
+            cursor: pointer;
+            font-size: 16px;
+            
+        }
+        #fbut:hover{
+            color:  #6F757C;
+            background-color:#FEF7EE;
+
+        }
+        #fbut1{
+            font-weight: 600;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            width:600;
+            height: 30px;
+            font-size: 15px;
+            border: none;
+            color: #FEF7EE;
+            background-color: #1B1D1F;
+            cursor: pointer;
+
+        }
+        h2{
+            position: relative;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight:1000;
+            font-style: normal;
+            font-size: 40px;
+            color: #FEF7EE;
+            top: 40px;
+        }
+        p{
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 10;
+            font-style: normal;
+            text-align: center;
+            color: #6F757C;
+        }
+        img{display: inline;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: 130px;
+            left: 100px;
+        }
+
+        #bbox{
+            top: -60px;
+            position: relative;
+            width: 100%;
+            height: 70%;
+            display: grid;
+            grid-template-columns: 20fr  20fr 20fr;
+            grid-template-rows:  2fr;
+            gap: 30px;
+          
+        }
+        .Product{
+           
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+       .Product>img{
+        transition-duration: 0.5s;
+        position:static;
+            width: 75%;
+            height: 150px;
+            border-radius: 9px;
+            object-fit: cover;
+            opacity: 0.7;
+            filter: drop-shadow(16px 16px 20px rgb(43, 26, 11))
+            
+
+        }
+        .Product>img:hover{
+            transition-duration: 0.5s;
+            opacity: 1;
+            transform: scale(1.07) ;
+            filter: drop-shadow(16px 16px 20px rgba(80, 48, 20, 0.589))
+        }
+        .dhed{
+            gap: 60px;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            position:static;
+            width: 100%;
+            height: 34%;
+
+
+        }
+        .dhed>h3{
+            
+            position: relative;
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-size: 15px;
+            color: #FEF7EE;
+            left: 40px;
+
+        }
+        .dhed>button{
+            font-family: "DM Sans", sans-serif;
+            font-optical-sizing: auto;
+            position: relative;
+            width: 50px;
+            height: 20px;
+            border-radius: 6px;
+            border: none;
+
+           
+            background-color:#BEE3CC;
+        }
+        .Product:hover{
+            cursor: pointer;
+        }
+        .dhed>img{
+            opacity: 1;
+            position:static;
+            width: 20px;
+            height: 20px;
+          
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="header">
+    </div>
+    <div id="box">
+        <div id="tbox"><img src="./pngfind.com-red-circle-png-603371.png" alt=""><h2>Our Collection</h2><p>Let's say that the part of the image that is shown, is not positioned as we want.</p> <div id="bt"><button id="fbut">All Product</button> <button id="fbut1">Available Now</button> </div> </div>
+        <div id="bbox">
+            <div class="Product"><img src="./photo-1589914836616-8eab818aed8c.avif" alt=""><div class="dhed"><h3>Cappuccino</h3><button>$5.20</button></div></div>
+            <div class="Product"><img src="./photo-1533776992670-a72f4c28235e.avif" alt=""><div class="dhed"><h3>House Coffee</h3><button>$3.50</button> <div class="vf">
+
+            </div></div></div>
+            <div class="Product"><img src="./photo-1569408208860-fb404f2c092c.avif" alt=""><div class="dhed"><h3>Espresso</h3><button>$2.50</button></div></div>
+            <div class="Product"><img src="./photo-1579213931773-7309c9fb52b0.avif" alt=""><div class="dhed"><h3>Coffee Latte</h3><button>$5.20</button></div></div>
+            <div class="Product"><img src="./photo-1583056322588-2196642f8d75.avif" alt=""><div class="dhed"><h3>Chocolate Coffee</h3><button>$4.00</button></div></div>
+            <div class="Product"><img src="./photo-1591377176351-e9320340771f.avif" alt=""><div class="dhed"><h3>Valenite</h3><button>$5.50</button></div></div>
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
